@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans:ital,wght@1,700 & display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body .page{
+    margin: 20px 80px;
+}
+/* Barre de navigation */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    background-color: black;
+    padding: 10px 0px;
+}
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+nav .onglets a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+nav .buttons button{
+    padding: 13px 20px;
+    color: white;
+    border: none;
+    background-color: red;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none
+}
+nav .buttons .login{
+    background-color: inherit;
+    margin-right: 10px;
+    color: #8f8f8f;
+}
+nav .buttons .register{
+    background-color: brown;
+    margin-right: 10px;
+    color: #8f8f8f;
+}
+/* Fin de la barre de navigation */
+
+/* Partir header */
+header{
+    margin-top: 40px;
+    background: url('https://cdn.pixabay.com/photo/2020/11/27/22/07/naruto-5783102_960_720.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 350px ;
+  }
+  header h1{
+      text-align: center;
+      font-size: 60px;
+      padding: 150px;
+  }
+
+/* fin de la partie header*/
+
+/* pied de page  */
+footer{
+    background-color: #8f8f8f;
+    padding: 25px 100px;
+    color: #828282;
+}
+footer .colonnes{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+}
+
+/*fin du pied de page */
